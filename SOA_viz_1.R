@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+
+#Did this show up on Github? 
+
 rm(list=ls()) #clear environment
 setwd("C:/Users/hplaas/OneDrive - University of North Carolina at Chapel Hill/Coding/R/SOA/CyanoSOA/SEMS") #set working directory 
 #load necessary packages
