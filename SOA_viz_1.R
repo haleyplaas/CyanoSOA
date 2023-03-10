@@ -1,12 +1,12 @@
 <<<<<<< HEAD
 
-#Did this show up on Github? 
-
 rm(list=ls()) #clear environment
 setwd("C:/Users/hplaas/OneDrive - University of North Carolina at Chapel Hill/Coding/R/SOA/CyanoSOA/SEMS") #set working directory 
 #load necessary packages
 library(dplyr); library(tidyr); library(ggplot2);library(cowplot);library(tidyverse);library(patchwork);library(tidyverse);library(scales); library(rstatix);library(plyr)
 
+simple.function <- 2+2 
+  
 MIB_files <- list.files("C:/Users/hplaas/OneDrive - University of North Carolina at Chapel Hill/Coding/R/SOA/CyanoSOA/SEMS/MIB")
 GSM_files <- list.files("C:/Users/hplaas/OneDrive - University of North Carolina at Chapel Hill/Coding/R/SOA/CyanoSOA/SEMS/GSM")
 
