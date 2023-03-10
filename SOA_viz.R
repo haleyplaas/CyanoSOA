@@ -12,7 +12,7 @@ for(i in 1:length(MIB_files)) {
 for(i in 1:length(GSM_files)) {                              
   assign(paste0("GSM", i), 
          read.csv(paste0("C:/Users/hplaas/OneDrive - University of North Carolina at Chapel Hill/Coding/R/SOA/CyanoSOA/SEMS/GSM/", GSM_files[i])))}
-
+# DID THIS SHOW UP IN GITHUB??
 #Cleaning the data -----------------------------------------------------------------------------------------------------------------------------
 #2-METHYLISOBORNEOL TRIALS
 MIB1 <- MIB1 %>% mutate(StartTime = as.POSIXct(StartTime, format = "%H:%M:%S")) %>% tidyr::separate(col = StartTime, into = c("Date", "Time"), sep = " ", convert = TRUE) %>% dplyr::select(-Date)
